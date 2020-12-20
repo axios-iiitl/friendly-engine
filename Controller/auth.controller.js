@@ -1,6 +1,6 @@
 const createError = require("http-errors");
 const User = require("../Model/User");
-const { signAccessToken } = require("../helper/JWT_helper");
+const { signAccessToken } = require("../Helper/JWT_helper");
 module.exports = {
     googleauth: async (req, res, next) => {
         try {
