@@ -4,7 +4,7 @@
   "description": "Backend for the authentication of the super app.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon App.js"
+    "start": "node App.js"
   },
   "repository": {
     "type": "git",
