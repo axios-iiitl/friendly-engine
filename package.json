@@ -18,12 +18,13 @@
   "homepage": "https://github.com/axios-iiitl/friendly-engine#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "express": "^4.17.1",
     "http-errors": "^1.8.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.11.8"
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "morgan": "^1.10.0",
     "nodemon": "^2.0.6"
   }
 }
