@@ -1,0 +1,29 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "Backend for the authentication of the super app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axios-iiitl/friendly-engine.git"
+  },
+  "author": "narendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axios-iiitl/friendly-engine/issues"
+  },
+  "homepage": "https://github.com/axios-iiitl/friendly-engine#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  }
+}
