@@ -18,5 +18,5 @@ app.use(async (req, res, next) => {
   });
 
 app.listen(PORT || 3000, () => {
-  console.log(`Server started at port ${Port || 3000} 🚀🚀`);
+  console.log(`Server started at port ${PORT || 3000} 🚀🚀`);
 });
