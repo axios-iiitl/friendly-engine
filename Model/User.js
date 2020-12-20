@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-require("../helper/Init_mongoose");
+require("../Helper/Init_mongoose");
 const Schema = mongoose.Schema;
 const userSchema = new Schema({
   googleId: {
