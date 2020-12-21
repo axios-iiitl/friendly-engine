@@ -4,7 +4,8 @@ const { signAccessToken } = require("../Helper/JWT_helper");
 module.exports = {
     googleauth: async (req, res, next) => {
         try {
-          const { googleId, email, name } = req.body.response.profileObj;
+          console.log(req.body);
+          const { googleId, email, name } = req.body;
           User.findOne({ googleID: googleId }).then(async(currentuser) => {
             if (currentuser) {
               const accessToken = await signAccessToken(currentuser.id);
