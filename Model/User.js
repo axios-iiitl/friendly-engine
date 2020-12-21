@@ -5,39 +5,39 @@ const userSchema = new Schema({
   googleId: {
     type: String,
     trim: true,
-    required: true
+    // required: true
   },
   name: {
     type: String,
     trim: true,
-    required: true
+    // required: true
   },
   branch: {
     type: String,
     trim: true,
-    required: true
+    // required: true
   },
   year: {
     type: String,
     trim: true,
-    required: true
+    // required: true
   },
   course: {
     type: String,
     trim: true,
-    required: true
+    // required: true
   },
   rollNo: {
     type: String,
     trim: true,
-    required: true,
+    // required: true,
     index: true,
     unique: true
   },
   email: {
     type: String,
     trim: true,
-    required: true
+    // required: true
   },
   displayPicture: {
     type: String,
