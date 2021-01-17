@@ -12,17 +12,18 @@ const userSchema = new Schema({
     trim: true,
     // required: true
   },
+  displayname: {
+    type: String,
+    trim: true,
+    // required: true
+  },
   branch: {
     type: String,
     trim: true,
+    uppercase: true,
     // required: true
   },
   year: {
-    type: String,
-    trim: true,
-    // required: true
-  },
-  course: {
     type: String,
     trim: true,
     // required: true
@@ -32,38 +33,43 @@ const userSchema = new Schema({
     trim: true,
     // required: true,
     index: true,
-    unique: true
+    uppercase: true,
+    unique: true,
   },
   email: {
     type: String,
     trim: true,
+    uppercase: true,
     // required: true
+  },
+  emailVerified: {
+    type: Boolean,
   },
   displayPicture: {
     type: String,
-    trim: true
+    trim: true,
   },
   contacts: {
     phoneNumber: {
       type: String,
-      trim: true
+      trim: true,
     },
     guardianName: {
       type: String,
-      trim: true
+      trim: true,
     },
     guardianNumber: {
       type: String,
-      trim: true
+      trim: true,
     },
     address: {
       type: String,
-      trim: true
+      trim: true,
     },
-    emergencyNumber:{
+    emergencyNumber: {
       type: String,
-      trim: true
-    }
+      trim: true,
+    },
   },
 });
 
