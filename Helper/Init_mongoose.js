@@ -5,7 +5,7 @@ connect(process.env.mongouri,
     {
         useNewUrlParser:true,
         useUnifiedTopology:true,
-        dbName:"Users",
+        dbName:"AUTHENTICATION",
         useCreateIndex:true,
         useFindAndModify:false
     })  
